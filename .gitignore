@@ -1,0 +1,11 @@
+# build output
+*.o
+/chip8
+/asm/c8asm
+/build/
+# downloaded ROMs (not yours to redistribute)
+/roms/*
+!/roms/README.md
+# editor junk
+.vscode/
+.DS_Storegit
