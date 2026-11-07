@@ -36,8 +36,6 @@ bool draw_flag; /* screen changed this frame */
 Quirks quirks;
 } Chip8;
 void chip8_init(Chip8 *c); /* zero all, load font, pc
-CHIP-8 Emulator — Roadmap
-Page 5 of 13
 = 0x200 */
 int chip8_load_rom(Chip8 *c, const char *path); /* 0 ok, -1 error
 (missing/too big) */

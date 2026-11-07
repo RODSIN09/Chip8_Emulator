@@ -65,3 +65,11 @@ chip8/
 |-.gitignore
 
 
+#### Some references for stuff I have looked:
+
+Cloned raylib rep, from CLI: gh repo clone raysan5/raylib --> link: https://github.com/raysan5/raylib
+SDL2 link https://wiki.libsdl.org/SDL2, there you can see the downloading procedure depending on your OS.
+Also the docs for certain functions, as for the ones in chip8.h, are:
+https://pubs.opengroup.org/onlinepubs/9799919799/ --> stdint.h
+https://pubs.opengroup.org/onlinepubs/9799919799/ --> stdbool.h
+
